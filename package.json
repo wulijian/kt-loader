@@ -1,0 +1,24 @@
+{
+    "name": "kt-loader",
+    "title": "kt-loader",
+    "description": "ktemple module loader for webpack",
+    "version": "0.1.1",
+    "homepage": "",
+    "author": {
+        "name": "KnightWu"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wulijian/kt-loader.git"
+    },
+    "bugs": {
+        "url": "XXX"
+    },
+    "dependencies": {
+        "uglify-js": "latest",
+        "js-beautify": "latest",
+        "loader-utils": "latest",
+        "ktemplate": "latest"
+    },
+    "keywords": ["template", "module","loader", "nodejs", "javascript", "模块"]
+}
