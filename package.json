@@ -2,7 +2,7 @@
     "name": "kt-loader",
     "title": "kt-loader",
     "description": "ktemple module loader for webpack",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "homepage": "",
     "author": {
         "name": "KnightWu"
