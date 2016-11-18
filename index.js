@@ -8,7 +8,7 @@ var beautify = require('js-beautify').js_beautify;
 module.exports = function (source, sourcemap) {
     var templateDir = path.normalize(this.query.replace(/^\?/, ''));
     var callback = this.async();
-    var modeNameReg = new RegExp(templateDir.replace(/([\\\/])/g, function ($0, $1) {
+    var modeNameReg = new RegExp(templateDir.replace(/([\\])/g, function ($0, $1) {
             return $1 + $1;
         }) + '([\\\/\\\\])(.*)\\1.*$');
     if (sourcemap.sources.length > 0) {
